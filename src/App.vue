@@ -283,51 +283,51 @@
             <input type="submit" value="submit" class="contact__button" />
           </form>
         </div>
+
+        <footer class="footer section">
+          <div class="footer__container bd-grid">
+            <div class="footer__data">
+              <h2 class="footer__title">Kenechukwu Nsofor</h2>
+              <p class="footer__text">
+                I am Kenechukwu Nsofor and this is my website
+              </p>
+            </div>
+
+            <div class="footer__data">
+              <h2 class="footer__title">EXPLORE</h2>
+              <ul>
+                <li><a href="#home" class="footer__link">Home</a></li>
+                <li><a href="#about" class="footer__link">About</a></li>
+                <li><a href="#skills" class="footer__link">Skills</a></li>
+                <li><a href="#portfolio" class="footer__link">Portfolio</a></li>
+                <li><a href="#Contact" class="footer__link">Contact</a></li>
+              </ul>
+            </div>
+
+            <div class="footer__data">
+              <h2 class="footer__title">FOLLOW</h2>
+              <a
+                href="https://www.linkedin.com/in/kenechukwu-nsofor-3472ab132"
+                class="about__social-icon"
+                ><i class="bx bxl-linkedin"></i
+              ></a>
+              <a href="https://github.com/Alienz11" class="about__social-icon"
+                ><i class="bx bxl-github"></i
+              ></a>
+              <a
+                href="https://www.facebook.com/kenechukwu.nsofor"
+                class="about__social-icon"
+                ><i class="bx bxl-facebook"></i
+              ></a>
+              <a
+                href="https://weeztechnology.wordpress.com/"
+                class="about__social-icon"
+                ><i class="bx bxl-wordpress"></i
+              ></a>
+            </div>
+          </div>
+        </footer>
       </section>
-
-      <footer class="footer section">
-        <div class="footer__container bd-grid">
-          <div class="footer__data">
-            <h2 class="footer__title">Kenechukwu Nsofor</h2>
-            <p class="footer__text">
-              I am Kenechukwu Nsofor and this is my website
-            </p>
-          </div>
-
-          <div class="footer__data">
-            <h2 class="footer__title">EXPLORE</h2>
-            <ul>
-              <li><a href="#home" class="footer__link">Home</a></li>
-              <li><a href="#about" class="footer__link">About</a></li>
-              <li><a href="#skills" class="footer__link">Skills</a></li>
-              <li><a href="#portfolio" class="footer__link">Portfolio</a></li>
-              <li><a href="#Contact" class="footer__link">Contact</a></li>
-            </ul>
-          </div>
-
-          <div class="footer__data">
-            <h2 class="footer__title">FOLLOW</h2>
-            <a
-              href="https://www.linkedin.com/in/kenechukwu-nsofor-3472ab132"
-              class="about__social-icon"
-              ><i class="bx bxl-linkedin"></i
-            ></a>
-            <a href="https://github.com/Alienz11" class="about__social-icon"
-              ><i class="bx bxl-github"></i
-            ></a>
-            <a
-              href="https://www.facebook.com/kenechukwu.nsofor"
-              class="about__social-icon"
-              ><i class="bx bxl-facebook"></i
-            ></a>
-            <a
-              href="https://weeztechnology.wordpress.com/"
-              class="about__social-icon"
-              ><i class="bx bxl-wordpress"></i
-            ></a>
-          </div>
-        </div>
-      </footer>
     </main>
   </div>
 </template>
@@ -745,6 +745,7 @@ img {
   color: var(--white-color);
   padding: 0.75rem 2.5rem;
   margin-left: auto;
+  margin-bottom: 10px;
   border-radius: 0.5rem;
   border: none;
   outline: none;

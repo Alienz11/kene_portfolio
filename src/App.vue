@@ -156,6 +156,24 @@
             <span class="skills__name"
               >Bootstrap <i class="bx bxl-bootstrap"></i
             ></span>
+
+            <h3 class="skills__subtitle">Devops Tools</h3>
+            <span class="skills__name"
+              >Docker <i class="bx bxl-docker"></i
+            ></span>
+            <span class="skills__name">Nginx <i class="bx bxl-nginx"></i></span>
+            <span class="skills__name"
+              >Datadog <i class="bx bxl-datadog"></i
+            ></span>
+            <span class="skills__name">MySQL <i class="bx bxl-mysql"></i></span>
+            <span class="skills__name">Redis <i class="bx bxl-redis"></i></span>
+            <span class="skills__name"
+              >MongoDB <i class="bx bxl-mongodb"></i
+            ></span>
+            <span class="skills__name">Linux <i class="bx bxl-tux"></i></span>
+            <span class="skills__name"
+              >Kubernetes <i class="bx bxl-kubernetes"></i
+            ></span>
           </div>
 
           <div class="skills__img">

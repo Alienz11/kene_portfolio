@@ -229,7 +229,11 @@
             >
           </div>
 
-          <form action="" class="contact__form" @submit.prevent="sendEmail">
+          <form
+            class="contact__form"
+            action="https://formsubmit.co/28b11799e440d01f1151c9fb0da5709f"
+            method="POST"
+          >
             <div class="contact__inputs">
               <input
                 type="text"
@@ -310,45 +314,13 @@
 
 <script>
 // import ScrollReveal from 'scrollreveal'
-// import { menuScroll } from './components/scroll';
-// import emailjs from 'emailjs-com';
-import dotenv from "dotenv";
-dotenv.config();
+import { menuScroll } from "./components/scroll";
 
-// export default {
-//     data() {
-//     return {
-//       name: '',
-//       email: '',
-//       message: ''
-//     }
-//   },
-//    mounted() {
-//        menuScroll();
-
-//     },
-//     methods: {
-// // 'service_1zuqst5', 'template_p8oju5z', e.target, 'user_taeyowfinVFhWZK6jHrrm'
-
-//     sendEmail(e) {
-//       try {
-//         emailjs.sendForm('service_1zuqst5', 'template_p8oju5z', e.target,
-//         'user_taeyowfinVFhWZK6jHrrm', {
-//           name: this.name,
-//           email: this.email,
-//           message: this.message
-//         })
-//     console.log('success');
-//       } catch(error) {
-//           console.log({error})
-//       }
-//       // Reset form field
-//       this.name = ''
-//       this.email = ''
-//       this.message = ''
-//     },
-//   }
-// }
+export default {
+  mounted() {
+    menuScroll();
+  },
+};
 </script>
 
 <style>

@@ -103,7 +103,9 @@
             <img src="./assets/img/calorypal.png" alt="" />
 
             <div class="portfolio__link">
-              <a href="#" class="portfolio__link-name"
+              <a
+                href="https://calorypal.herokuapp.com/"
+                class="portfolio__link-name"
                 >A web app that stores data about the user's food and calories
                 it contains to keep track and eat healthy<br /><br />
                 visit site

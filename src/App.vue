@@ -120,7 +120,7 @@
       <!-- //skills -->
 
       <section class="skills section" id="skills">
-        <h2 class="section-title">Skills</h2>
+        <h2 class="skill-title">Skills</h2>
 
         <div class="skills__container bd-grid">
           <div class="skills__box">
@@ -156,6 +156,10 @@
             <span class="skills__name"
               >Bootstrap <i class="bx bxl-bootstrap"></i
             ></span>
+            <span class="skills__name">Java <i class="bx bxl-java"></i> </span>
+            <span class="skills__name"
+              >Spring Boot <i class="bx bxl-spring-boot"></i>
+            </span>
 
             <h3 class="skills__subtitle">Devops Tools</h3>
             <span class="skills__name"
@@ -166,9 +170,12 @@
               >Datadog <i class="bx bxl-datadog"></i
             ></span>
             <span class="skills__name">MySQL <i class="bx bxl-mysql"></i></span>
+            <span class="skills__name"
+              >Postgresql <i class="bx bxl-postgresql "></i
+            ></span>
             <span class="skills__name">Redis <i class="bx bxl-redis"></i></span>
             <span class="skills__name"
-              >MongoDB <i class="bx bxl-mongodb"></i
+              >MongoDB <i class="bx bxl-mongodb "></i
             ></span>
             <span class="skills__name">Linux <i class="bx bxl-tux"></i></span>
             <span class="skills__name"
@@ -199,11 +206,11 @@
             >
             <p align="justify" class="about__text">
               I am a Software Engineering graduate from Holberton School, where
-              I got hands on experience with Web Development, Web App
-              Development and Development Operations(Devops). I mostly enjoy
-              back-end development as I specialized in back-end development in
-              Holberton School using Python and Javascript. But with my
-              knowledge in React, Vue, Html and CSS I am more of a Full-Stack
+              I got hands-on experience with Web Development, Web App
+              Development and Development Operations(DevOps). I mostly enjoy
+              back-end development as I specialized in back-end development at
+              Holberton School using Python and Javascript. But with knowledge
+              of React.js, Vue.js, Html and CSS, I am more of a Full-Stack
               developer.
             </p>
 
@@ -633,6 +640,24 @@ img {
   color: var(--first-color);
 }
 /* // skills */
+.skill-title {
+  position: relative;
+  font-size: var(--h2-font-size);
+  color: var(--dark-color);
+  margin: var(--mb-4) 0;
+  text-align: center;
+}
+.skill-title::after {
+  position: absolute;
+  content: "";
+  width: 32px;
+  height: 0.18rem;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 3rem;
+  background-color: var(--first-color);
+}
 
 .skills__container {
   row-gap: 2rem;

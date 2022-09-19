@@ -74,7 +74,7 @@ export const menuScroll = function() {
   sr.reveal(".portfolio__img", { interval: 100 });
 
   // /*SCROLL CONTACT*/
-  sr.reveal(".contact__subtitle", { delay: 200 });
+  // sr.reveal(".contact__subtitle", { delay: 200 });
   // sr.reveal('.contact__text', { delay: 200 })
   // sr.reveal('.contact__input', { delay: 300 })
   sr.reveal(".contact__button", { delay: 400 });
